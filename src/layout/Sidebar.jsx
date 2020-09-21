@@ -27,20 +27,12 @@ class Sidebar extends Component {
                             <li><Link to="#skills"><i className="bx bx-file-blank"></i> <span><b>Skills</b></span></Link></li>
                             <li><Link to="#awards"><i className="bx bx-book-content"></i><b>Awards</b></Link></li>
                             <li><Link to="#Interests"><i className="bx bx-server"></i><b>Interests</b></Link></li>
-                            <li><Link to="#contact"><i className="bx bx-envelope"></i> Contact</Link></li>
-
+                           
                         </ul>
                     </nav>
                 </div>
             </header>
-            <footer id="footer">
-                <div className="container">
-                    <div className="copyright">
-                       2020 &copy; Copyright <strong><span>BillionaireProject</span></strong>
-                    </div>
-                   
-                </div>
-            </footer>
+      
         </React.Fragment>
     );
   }
